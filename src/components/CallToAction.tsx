@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 
 const CallToAction = () => {
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-br from-primary/10 via-accent/10 to-primary/5">
+    <section className="py-16 md:py-24 bg-gradient-to-br from-amber-500/10 via-secondary/10 to-amber-700/5">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
@@ -15,7 +15,7 @@ const CallToAction = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button asChild size="lg" className="rounded-full text-lg px-8">
+            <Button asChild size="lg" className="rounded-full text-lg px-8 gradient-bg">
               <a 
                 href="https://niloai.vercel.app/" 
                 target="_blank"
@@ -24,7 +24,7 @@ const CallToAction = () => {
                 Try Prototype <ArrowRight className="ml-1" />
               </a>
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full text-lg">
+            <Button variant="outline" size="lg" className="rounded-full text-lg border-amber-700/20">
               <a href="#contact">Contact Us</a>
             </Button>
           </div>
